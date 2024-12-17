@@ -1,0 +1,35 @@
+.section{
+    box-shadow: 0 -2px 6px 1px white;
+    transition: all 2s;
+    background-color: transparent;
+}
+
+.section:hover{
+    background-color: black;
+    cursor: pointer;
+    
+
+}
+
+/* .experienceSections {
+    animation: movement 10s linear infinite ;
+    position: relative; /* or absolute 
+    
+    animation-play-state: running;
+}
+.experienceSections:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  
+  @keyframes movement {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+    }
+  } */
+  
+  
+  

@@ -1,0 +1,79 @@
+
+.data_col input{
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+color: white;
+background-color: transparent;
+box-shadow: -1px -2px 5px white;
+}
+.msgArea{
+    width: 100%;
+    height: 200px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+color: white;
+background-color: transparent;
+box-shadow: -1px -2px 5px white;
+
+}
+.data_col{
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 10px;
+
+
+}
+.contactCol{
+display: flex;
+width: 100%;
+padding: 2%;
+justify-content: space-between;
+gap: 40px;
+
+
+
+}
+
+.contactDetails{
+    border-radius: 10px;
+    padding: 2%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactContainer{
+    width: 95%;
+    margin: 5% auto ;
+    background-image: url(../../Images/freeQuote.jpg);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: cover;
+    height: 40rem;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 -3px 3px 1px white;
+    
+}
+   
+.submitBtn{
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 15px;
+    background-color: #405cf5;
+    box-shadow: 0px 3px 0 2px white;
+    transition: all 0.15s linear;
+    margin:4px auto;
+    width: fit-content;
+
+}
+.submitBtn:hover{
+    box-shadow: 0px 1px 3px 1px white;
+
+
+}

@@ -1,0 +1,72 @@
+.CertiCard{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 80px;
+    height: 100%;
+    max-width: 40%;
+    box-shadow: 0 -2px 2px 2px white;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    
+    
+}
+.CertiCard:hover{
+    padding: 0px;
+    box-shadow: 0 0 0 0 white;
+    border-radius: 2%;
+
+    cursor: pointer;
+}
+
+.CertiImg{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    height: 100%;
+
+}
+.CertiCard img{
+    height: 100%;
+    border-radius: 2%;
+
+}
+.h1Certi{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.certiMain{
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap: 5%;
+height: 500px;
+padding: 20px;
+
+
+
+}
+
+.skillIC{
+    transition: all 1s linear;
+    background-color: black;
+
+}
+.reactI {
+    color: white;
+        transition: all 1s linear;
+
+}
+/* 
+.skillIC:hover .reactI {
+    color: black; 
+}
+
+.skillIC:hover {
+    
+    background-color: white; 
+*/

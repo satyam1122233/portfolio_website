@@ -12,14 +12,14 @@ const navItems=[
   { id: 1, text: "Home", path: "/" },
 { id: 2, text: "About", path: "/about" },
 { id: 3, text: "Skills/Certifications", path: "/skills" },
-// { id: 4, text: "Projects", path: "/projects" },
+{ id: 4, text: "Projects", path: "/projects" },
 { id: 5, text: "Contacts", path: "/contacts" },
 
   
 ]
   return (
     <>
-      <div className='pera max-w-screen-2xl container mx-auto px-4 md:px-20 h-16  fixed top-0 left-0 right-0 'style={{ backgroundColor:'black',boxShadow: '0 0px 12rem 0px cadetblue'}}>
+      <div className='pera max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 fixed top-0 left-0 right-0 'style={{ backgroundColor:'black',boxShadow: '0 0px 12rem 0px cadetblue', width:'100%'}}>
         <div className='flex justify-between h-16 items-center'>
             <div className="flex space-x-2">
                 <img src={pic} alt=""  className='h-12 w-12 rounded-full flex'/>

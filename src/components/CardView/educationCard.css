@@ -11,6 +11,42 @@
 
 }
 
+.mainH{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subHdng{
+    background: black;
+    box-shadow: 0 2px 4px wheat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition: all 0.5s linear;
+}
+.subHdng:hover{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.pera{
+    font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.typeTxt{
+    font-family: "Birthstone", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: larger;
+}
+
+
+
+
 /* .experienceSections {
     animation: movement 10s linear infinite ;
     position: relative; /* or absolute 

@@ -21,10 +21,10 @@ function Skills() {
   return (
     <>
     
-    <div name="/skills" className=' m-auto my-20  w-full'>
+    <div name="/skills" className=' m-auto my-20 px-4  w-full'>
   
     
-<h1  className='text-3xl font-bold mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Skills</h1>
+<h1  className='mainH text-3xl mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Skills</h1>
    
    
     <div className="flex justify-between px-12 mx-4">
@@ -47,8 +47,8 @@ function Skills() {
 
 </div>
 
-<div className="certificationContainer ">
-<h1 className='text-2xl font-bold mt-20 shadow-md px-4 py-2 rounded-lg bg-[cadetblue] mb-6'>Certification</h1>
+<div className="certTxt certificationContainer ">
+<h1 className='mainH text-2xl mt-20 shadow-md px-4 py-2 rounded-lg bg-[cadetblue] mb-6'>Certification</h1>
 
 <div className="certiMain ">
 <CertificateCard img={javaForAndroidImg} CrsNane={"Java For Android"}/>

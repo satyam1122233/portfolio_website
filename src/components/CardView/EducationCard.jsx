@@ -4,7 +4,7 @@ import './educationCard.css';
 function EducationCard(props) {
   return (
     <>
-      <div className="section w-1/3 p-4 rounded-xl ">
+      <div className="pera section w-1/3 p-4 rounded-xl ">
       <div className='mt-2 mb-4'>
             <h1 className='font-semibold  text-xl underline'>{props.certificationName}</h1>
             </div>

@@ -61,6 +61,18 @@ padding: 20px;
         transition: all 1s linear;
 
 }
+
+.mainH{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.certTxt{
+    font-family: "Atma", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
 /* 
 .skillIC:hover .reactI {
     color: black; 

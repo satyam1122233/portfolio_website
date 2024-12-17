@@ -41,6 +41,7 @@ gap: 40px;
     border-radius: 10px;
     padding: 2%;
     width: 60%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,10 +50,6 @@ gap: 40px;
 .contactContainer{
     width: 95%;
     margin: 5% auto ;
-    background-image: url(../../Images/freeQuote.jpg);
-    background-repeat: no-repeat;
-    background-position: right ;
-    background-size: cover;
     height: 40rem;
     padding: 30px;
     border-radius: 12px;

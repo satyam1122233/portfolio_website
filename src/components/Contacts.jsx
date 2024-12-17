@@ -24,10 +24,10 @@ function Contacts() {
   
   return (
 
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='pera px-4'>
     <div name="/contacts">
       
-<h1  className='text-3xl font-bold mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Contacts</h1>
+<h1  className='mainH text-3xl mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Contacts</h1>
 
 <div className='contactContainer'>
 <div className="contactDetails">

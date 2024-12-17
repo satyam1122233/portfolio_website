@@ -4,4 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/portfolio_website/', // Use the path from the 'homepage' field in your package.json
+  build: {
+    outDir: 'build', // Ensure the build output goes to the 'build' folder
+  },
 })

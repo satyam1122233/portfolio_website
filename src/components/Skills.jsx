@@ -48,7 +48,7 @@ function Skills() {
 </div>
 
 <div className="certTxt certificationContainer ">
-<h1 className='mainH text-2xl mt-20 shadow-md px-4 py-2 rounded-lg bg-[cadetblue] mb-6'>Certification</h1>
+<h1 className='mainH subHdng text-2xl mt-20 mb-4 shadow-md px-4 py-2 rounded-lg'>Certification</h1>
 
 <div className="certiMain ">
 <CertificateCard img={javaForAndroidImg} CrsNane={"Java For Android"}/>

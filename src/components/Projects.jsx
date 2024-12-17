@@ -9,11 +9,11 @@ function Projects() {
   return (
     <>    
 <div Name="/projects" className='mainH px-4'>
-<h1  className='text-3xl font-bold mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Projects</h1>
+<h1  className='text-3xl font-bold shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Projects</h1>
 
 
 <div className='projectContainer flex flex-col gap-10'>
-<h1 className='mainH text-2xl mt-20 shadow-md px-4 py-2 rounded-lg bg-[cadetblue] mb-6'>Android Projects</h1><div className="projectMain flex justify-between">
+<h1 className='mainH subHdng text-2xl mt-4 mb-4 shadow-md px-4 py-2 rounded-lg'>Android Projects</h1><div className="projectMain flex justify-between">
  
   <ProjectCard img={javaImg} prTitle={"Project Name:"} prName={"Vehicle Maintenance App"} videoUrl={"https://www.loom.com/share/d2ae9254aba747e38213bf490aeeedcc?sid=8f1ae442-7aaf-4d80-a3e0-b780d92ef326"} codeUrl={"https://github.com/satyam1122233/CodeAlpha_AD_VEHICLE-MAINTENANCE-AND-MILEAGE-TRACKER-APP.git"} codeBtn={"Source Code"} videoBtn={"View Video"}/>
 
@@ -36,7 +36,7 @@ function Projects() {
 
 
 <div className='projectContainer flex flex-col gap-10'>
-<h1 className='mainH text-2xl mt-20 shadow-md px-4 py-2 rounded-lg bg-[cadetblue] mb-6'>Web Development Projects</h1><div className="projectMain flex justify-between">
+<h1 className='mainH subHdng text-2xl mt-20 mb-4 shadow-md px-4 py-2 rounded-lg'>Web Development Projects</h1><div className="projectMain flex justify-between">
  
   <ProjectCard img={reactImg} prTitle={"Project Name:"} prName={"To-Do-List"}videoUrl={"https://satyam1122233.github.io/To-Do-List/"}  codeUrl={"https://github.com/satyam1122233/To-Do-List.git"}codeBtn={"Source Code"} videoBtn={"Visit Website"}/>
   <ProjectCard img={htmlImg} prTitle={"Project Name:"} prName={"Check Palindrome"} videoUrl={""} codeUrl={"https://github.com/satyam1122233/check_palindrome_Website.git"}codeBtn={"Source Code"} videoBtn={"View Video"} />

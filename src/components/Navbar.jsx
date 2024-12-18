@@ -13,7 +13,7 @@ const navItems=[
 { id: 2, text: "About", path: "/about" },
 { id: 3, text: "Skills/Certifications", path: "/skills" },
 { id: 4, text: "Projects", path: "/projects" },
-{ id: 5, text: "Contacts", path: "/contacts" },
+{ id: 5, text: "Contact Us", path: "/contacts" },
 
   
 ]

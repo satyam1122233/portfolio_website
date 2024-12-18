@@ -49,7 +49,7 @@ const navItems=[
 
 
 
-  <div onClick={()=>setMenuBtn(!menuBtn)} className='md:hidden cursor-pointer bg-blue-500 hover:bg-blue-800'>
+  <div onClick={()=>setMenuBtn(!menuBtn)} className='md:hidden cursor-pointer bg-blue-500 hover:bg-blue-800 rounded-md p-[1px]'>
                   {menuBtn?<IoCloseSharp size={24}/>:<MdMenu size={24}/>}
               
 

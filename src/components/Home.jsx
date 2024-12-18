@@ -2,6 +2,8 @@ import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 import { ReactTyped } from "react-typed";
 import pic from '../../public/profPr.jpg'
 // import pic from '../../public/pic.png'
@@ -36,9 +38,25 @@ function Home() {
       <div className='space-y-2'>
 
         <h1 className='pera'>Available on</h1>
-        <div className="socialMediaIcon flex gap-2 "><FaYoutube size={24}/>
-<FaLinkedin size={24}/>
-<FaInstagramSquare size={24}/>
+        <div className="socialMediaIcon flex gap-2 ">
+          
+        <a href="https://www.youtube.com/@TechLearnerrr" target="_blank" rel="noopener noreferrer">
+        <FaYoutube size={32} />
+      </a>
+        <a href="https://www.linkedin.com/in/satyamkumar11222/" target="_blank" rel="noopener noreferrer">
+<FaLinkedin size={32}/>
+      </a>
+      
+        <a href="https://github.com/satyam1122233" target="_blank" rel="noopener noreferrer">
+<FaGithub size={32}/>
+
+      </a>
+        {/* <a href="https://github.com/satyam1122233" target="_blank" rel="noopener noreferrer">
+<FaInstagramSquare size={32}/>
+
+
+      </a> */}
+         
 </div>
       </div>
 

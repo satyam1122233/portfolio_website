@@ -18,7 +18,7 @@ function About() {
 
 <div className="educationContainer space-y-4">
       <h1 className='mainH subHdng text-2xl mt-20 shadow-md px-4 py-2 rounded-lg '>Education And Training</h1>
-  <div className="educationSections flex space-x-6 p-4">
+  <div className="educationSections flex flex-col md:flex-row space-y-6 md:space-x-6 md:space-y-0 p-4">
         
           <EducationCard orgNameHdng={"School Name:"} orgBoardHdng={"Educational Boards:"} orgYrHdng={"Year of Passing:"} percHdng={"Year of Percentage:"}  certificationName={"Secondary School Certificate (10th)" }schoolName={"Kendriya Vidyalaya Punjab Lines"} year={"2018"} percentage={"77.80%"} board={'CBSE'}/>
 
@@ -31,9 +31,14 @@ function About() {
       
 
    <div className="experienceContainer space-y-4">
-      <h1 className='mainH subHdng text-2xl mt-20 shadow-md px-4 py-2 rounded-lg'>Experience</h1>
+      <h1 className='mainH subHdng text-2xl mt-20 shadow-md px-4 py-2 rounded-lg
+      
+      '>Experience</h1>
       <div className="div p-4 overflow-hidden">
-  <div className="experienceSections flex space-x-6 ">
+  <div className="experienceSections 
+  flex flex-col md:flex-row space-y-6 md:space-x-6 md:space-y-0 p-4
+  
+  ">
         
 
   <EducationCard certificationName={"Android Development Internship" } orgNameHdng={"Company Name:"} orgYrHdng={"Duration:"}   schoolName={"Vishanka Technologies pvt ltd"} year={"1 Month"}  />

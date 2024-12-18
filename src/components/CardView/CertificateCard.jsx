@@ -4,7 +4,12 @@ import './skills.css';
 function certificateCard(prop) {
   return (
     <>
-    <div className="CertiCard  ">
+    <div className="CertiCard
+    p-[60px]
+    w-[100%]
+    md:p-[80px] 
+    md:max-w-[40%]
+     ">
     
     
     <div className="CertiImg ">

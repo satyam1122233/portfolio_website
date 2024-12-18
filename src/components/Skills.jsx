@@ -27,7 +27,7 @@ function Skills() {
 <h1  className='mainH text-3xl mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Skills</h1>
    
    
-    <div className="flex justify-between px-12 mx-4">
+    <div className="flex flex-col md:flex-row md:justify-between px-12 mx-4">
 
 <SkillsCard skillName={"Java"} icon={FaJava} iconColor="yellow" />
 <SkillsCard skillName={"php"} icon={SiPhp} iconColor={"#6884ba"} />
@@ -36,7 +36,7 @@ function Skills() {
 
 
 </div>
-<div className="flex justify-between px-12 mx-4">
+<div className="flex flex-col md:flex-row md:justify-between px-12 mx-4">
 
 <SkillsCard skillName={"MySql"} icon={SiMysql} iconColor={"#3263a0"}/>
 <SkillsCard skillName={"Html"} icon={FaHtml5} iconColor={"#e5532d"}/>
@@ -50,18 +50,24 @@ function Skills() {
 <div className="certTxt certificationContainer ">
 <h1 className='mainH subHdng text-2xl mt-20 mb-4 shadow-md px-4 py-2 rounded-lg'>Certification</h1>
 
-<div className="certiMain ">
+<div className="certiMain flex flex-col md:flex-row md:gap-5
+md:h-[500px]
+md:p-[20px]">
 <CertificateCard img={javaForAndroidImg} CrsNane={"Java For Android"}/>
 <CertificateCard img={javaIntemediate} CrsNane={"Java Intemediate"}/>
 
 </div>
-<div className="certiMain ">
+<div className="certiMain flex flex-col md:flex-row md:gap-5
+md:h-[500px]
+md:p-[20px]">
 <CertificateCard img={ma} CrsNane={"Microsoft Certified: Azure Fundamentals"}/>
 <CertificateCard img={mp} CrsNane={"Microsoft: Power Plateform Fundamentals "}/>
 
 </div>
 
-<div className="certiMain ">
+<div className="certiMain flex flex-col md:flex-row md:gap-5
+md:h-[500px]
+md:p-[20px]">
 <CertificateCard img={gl} CrsNane={"OOPs in Java"}/>
 <CertificateCard img={ij} CrsNane={"Introduction to Java "}/>
 

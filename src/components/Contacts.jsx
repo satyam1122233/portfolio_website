@@ -30,19 +30,23 @@ function Contacts() {
 <h1  className='mainH text-3xl mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Contacts</h1>
 
 <div className='contactContainer'>
-<div className="contactDetails">
-<div className="contactCol">
+<div className="contactDetails w-full md:w-[60%]">
+<div className="contactCol md:gap-[40px] flex flex-col  md:flex-row
+md:justify-between">
 <ContactCard name={"FirstName"} inpName={"First Name"}/>
 <ContactCard name={"LastName"} inpName={"Last Name"}/>
 
 </div>
-<div className="contactCol">
+<div className="contactCol md:gap-[40px] flex flex-col  md:flex-row
+md:justify-between">
 <ContactCard name={"PhoneNumber"} inpName={"Phone Number"}/>
 <ContactCard name={"Email"} inpName={"Email Address"}/>
 
 </div>
 
-<div className="contactCol">
+<div className="contactCol  flex flex-col  md:flex-row
+md:justify-between gap-5 ;
+">
 <textarea className='msgArea' placeholder="Message" name="Message"></textarea>
 
 </div>

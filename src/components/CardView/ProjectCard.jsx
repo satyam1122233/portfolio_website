@@ -4,7 +4,8 @@ import './project.css';
 
 function ProjectCard(props) {
   return (
-    <div className='project'>
+    <div className='project  mb-6 md:mb-0 w-full p-[5px] md:w-[30%] md:p-[10px]
+    '>
         <div className="image">
 
       <img src={props.img} alt=""/>

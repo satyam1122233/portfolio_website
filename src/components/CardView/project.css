@@ -1,10 +1,8 @@
 .project{
-    width: 30%; /* Container ka fixed size */
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding: 10px;
 
 
 }    

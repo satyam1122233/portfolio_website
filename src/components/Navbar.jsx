@@ -60,7 +60,7 @@ const navItems=[
 
 {/* mobile nav bar */}
       {menuBtn && <div >
-        <ul className='bg-black w-fit h-fit  m-auto md:hidden flex flex-col items-center justify-center p-8 my-2 space-y-4  top-0 left-0 right-0' style={{borderRadius:'15px', boxShadow:'0 -4px 8px 2px white'}}>
+        <ul className='bg-black w-fit h-fit  m-auto md:hidden flex flex-col items-center justify-center p-8 my-2 space-y-4  top-0 left-0 right-0' style={{borderRadius:'15px', boxShadow:'0 -3px 2px 2px white'}}>
         {
                     navItems.map(({id,text,path})=>(
                       <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>

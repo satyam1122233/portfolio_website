@@ -11,7 +11,7 @@ function ProjectCard(props) {
       <img src={props.img} alt=""/>
         </div>
 <div className="projDtls flex flex-col md:flex-row mt-4 mx-auto md:mt-[1.5rem] md:mb-[0.5rem] md:text-[18px] text-md
-  md:h-[6rem] h-fit p-[5px] md:p-[10px]
+  md:h-[7rem] h-fit p-[5px] md:p-[10px]
     md:w-[70%] w-fit">
     <h1 className='proTl text-green-500 md:flex-1 md:max-w-[50%] w-fit'>{props.prTitle}</h1> <h1 className='proTxt text-white ml-2 md:flex-1 md:max-w-[50%] max-w-full '>{props.prName}</h1>
 </div>

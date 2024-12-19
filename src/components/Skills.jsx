@@ -24,10 +24,10 @@ function Skills() {
     <div name="/skills" className=' m-auto my-20 px-4  w-full'>
   
     
-<h1  className='mainH text-3xl mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Skills</h1>
+<h1  className='mainH text-2xl md:text-3xl mb-5 shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Skills</h1>
    
    
-    <div className="flex flex-col md:flex-row md:justify-between px-12 mx-4">
+    <div className="flex flex-col md:flex-row md:justify-between md:px-12 md:mx-4 mx-1 px-2">
 
 <SkillsCard skillName={"Java"} icon={FaJava} iconColor="yellow" />
 <SkillsCard skillName={"php"} icon={SiPhp} iconColor={"#6884ba"} />
@@ -36,7 +36,7 @@ function Skills() {
 
 
 </div>
-<div className="flex flex-col md:flex-row md:justify-between px-12 mx-4">
+<div className="flex flex-col md:flex-row md:justify-between md:px-12 md:mx-4 mx-1 px-2">
 
 <SkillsCard skillName={"MySql"} icon={SiMysql} iconColor={"#3263a0"}/>
 <SkillsCard skillName={"Html"} icon={FaHtml5} iconColor={"#e5532d"}/>
@@ -48,9 +48,9 @@ function Skills() {
 </div>
 
 <div className="certTxt certificationContainer ">
-<h1 className='mainH subHdng text-2xl mt-20 mb-4 shadow-md px-4 py-2 rounded-lg'>Certification</h1>
+<h1 className='mainH subHdng text-lg md:text-2xl mt-20 mb-4 shadow-md px-4 py-2 rounded-lg'>Certification</h1>
 
-<div className="certiMain flex flex-col md:flex-row md:gap-5
+<div className="certiMain flex flex-col md:flex-row md:gap-5 
 md:h-[500px]
 md:p-[20px]">
 <CertificateCard img={javaForAndroidImg} CrsNane={"Java For Android"}/>

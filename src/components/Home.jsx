@@ -19,8 +19,8 @@ function Home() {
       <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
       <span className='pera text-lg'>Welcome In My Feed</span>
 
-    <div className='flex gap-2 text-2xl md:text-5xl'>  <h1 className='typeTxt'>Hello! <span className='md:ml-2'>I am a</span> </h1>
-    <h1>
+    <div className='flex gap-2 text-2xl md:text-5xl flex-row'>  <h1 className='typeTxt'>Hello! <span className='mx-2 md:mr-4 md:ml-2'>I am a</span>
+
     <ReactTyped
     className='typeTxt text-red-600'
           strings={["Web Developer","Java Developer","Android Developer"]}
@@ -28,6 +28,10 @@ function Home() {
           backSpeed={50}
           loop={true}
         />
+
+     </h1>
+    <h1>
+    
         </h1>
     </div>
 

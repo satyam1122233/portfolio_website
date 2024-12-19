@@ -9,11 +9,11 @@ function Projects() {
   return (
     <>    
 <div Name="/projects" className='mainH px-4'>
-<h1  className='text-3xl font-bold shadow-md p-4  rounded-lg bg-[darkcyan] my-20'>Projects</h1>
+<h1  className='text-2xl md:text-3xl font-bold shadow-md p-4  rounded-lg bg-[darkcyan] my-20 '>Projects</h1>
 
 
 <div className='projectContainer flex flex-col gap-10'>
-<h1 className='mainH subHdng text-2xl mt-4 mb-4 shadow-md px-4 py-2 rounded-lg'>Android Projects</h1><div className="projectMain flex flex-col md:flex-row md:justify-between">
+<h1 className='mainH subHdng text-lg md:text-2xl mt-4 mb-4 shadow-md px-4 py-2 rounded-lg'>Android Projects</h1><div className="projectMain flex flex-col md:flex-row md:justify-between">
  
   <ProjectCard img={javaImg} prTitle={"Project Name:"} prName={"Vehicle Maintenance App"} videoUrl={"https://www.loom.com/share/d2ae9254aba747e38213bf490aeeedcc?sid=8f1ae442-7aaf-4d80-a3e0-b780d92ef326"} codeUrl={"https://github.com/satyam1122233/CodeAlpha_AD_VEHICLE-MAINTENANCE-AND-MILEAGE-TRACKER-APP.git"} codeBtn={"Source Code"} videoBtn={"View Video"}/>
 

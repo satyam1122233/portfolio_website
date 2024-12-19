@@ -6,7 +6,7 @@ function certificateCard(prop) {
     <>
     <div className="CertiCard
     p-[60px]
-    w-[100%]
+    max-w-[80%]
     md:p-[80px] 
     md:max-w-[40%]
      ">

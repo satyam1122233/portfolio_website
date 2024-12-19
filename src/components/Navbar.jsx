@@ -19,8 +19,9 @@ const navItems=[
 ]
   return (
     <>
-      <div className='pera max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 fixed top-0 left-0 right-0 'style={{ backgroundColor:'black',boxShadow: '0 0px 12rem 0px cadetblue', width:'100%'}}>
-        <div className='flex justify-between h-16 items-center'>
+      <div className='pera max-w-screen-2xl container mx-auto px-4 md:px-20 h-fit md:h-16 fixed top-0 left-0 right-0 'style={{ backgroundColor:'black',boxShadow: '0 0px 12rem 0px cadetblue', width:'100%'}}>
+
+        <div className='flex justify-between md:h-16 items-center'>
             <div className="flex space-x-2">
                 <img src={pic} alt=""  className='h-12 w-12 rounded-full flex'/>
                 <h1 className='font-bold text-lg cursor-pointer'>Satyam <span>Kumar</span>

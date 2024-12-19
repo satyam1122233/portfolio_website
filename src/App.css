@@ -4,5 +4,5 @@ body{
     background-image: url('../public/darkBg.jpg'
     );
     padding: 2%;
-    line-break: anywhere;
+    word-wrap: break-word;
 }

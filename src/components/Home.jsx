@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -6,14 +6,52 @@ import { FaGithub } from "react-icons/fa";
 
 import { ReactTyped } from "react-typed";
 import pic from '../../public/profPr.jpg'
+import resumeImg from '../Images/resume.jpg'
+import { IoCloseSharp } from "react-icons/io5";
 // import pic from '../../public/pic.png'
 import './CardView/educationCard.css';
 
 
+
 function Home() {
+  let [resumeState,SetresumeState]=useState(false)
+
+  function ToggleResumeState(){
+    SetresumeState((prevState)=>!prevState)
+
+    console.log(resumeState)
+    }
+
+useEffect(()=>{
+  document.body.style.overflow=resumeState?'hidden':''
+},[resumeState])
+
+
   return (
     <>
+
+
+
+
     <div name="/" className='max-w-screen-2xl container mx-auto px-4 my-20' >
+
+
+
+    {resumeState&&(
+
+<div className='resumeDiv '>
+
+  <div className="img flex md:flex-row-reverse flex-col no-scrollbar">
+  <div onClick={ToggleResumeState}
+ className='closeBtn ml-auto'>
+   <IoCloseSharp size={30}/>
+   </div>
+  <img src={resumeImg} alt="" />
+  </div>
+
+</div>
+
+)}
 
       <div className='flex flex-col md:flex-row'>
       <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
@@ -42,6 +80,8 @@ function Home() {
       <div className='space-y-2'>
 
         <h1 className='pera'>Available on</h1>
+
+        <div className="flex flex-row justify-between">
         <div className="socialMediaIcon flex gap-2 ">
           
         <a href="https://www.youtube.com/@TechLearnerrr" target="_blank" rel="noopener noreferrer">
@@ -61,6 +101,15 @@ function Home() {
 
       </a> */}
          
+</div>
+
+<button onClick={ToggleResumeState} className='text-md  md:text-xl  color: white;
+py-[7px] px-[20px] rounded-2xl
+bg-[#962503]
+ shadow-[0px_3px_0_1px]
+shadow-white
+transition-all duration-[0.15s] ease-linear w-fit hover:shadow-[0px_1.5px_1px_1px] hover:bg-[#6d1c03]' >Resume</button>
+
 </div>
       </div>
 

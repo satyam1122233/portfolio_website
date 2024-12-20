@@ -97,6 +97,14 @@
     cursor: pointer;
 
 }
+.btnsDiv{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    top: 0;
+    height: fit-content;
+    width: 100%;
+}
 
 /* .experienceSections {
     animation: movement 10s linear infinite ;

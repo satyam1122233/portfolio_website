@@ -7,7 +7,10 @@ import { FaGithub } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import pic from '../../public/profPr.jpg'
 import resumeImg from '../Images/resume.jpg'
+import resumePdf from '../Images/satyam_resume.pdf'
 import { IoCloseSharp } from "react-icons/io5";
+import { FaDownload } from "react-icons/fa";
+
 // import pic from '../../public/pic.png'
 import './CardView/educationCard.css';
 
@@ -27,6 +30,14 @@ useEffect(()=>{
 },[resumeState])
 
 
+
+
+
+
+
+
+
+
   return (
     <>
 
@@ -42,11 +53,30 @@ useEffect(()=>{
 <div className='resumeDiv '>
 
   <div className="img flex md:flex-row-reverse flex-col no-scrollbar">
+     
+
+     <div className="btnsDiv md:flex-col-reverse md:gap-4
+     flex-row  ">
+
+     <a href={resumePdf} download={"Satyam_Resume"}>
+    <div className="downloadBtn bg-red-600 w-fit h-fit p-2 rounded-[5px] transition-all duration-[0.15s] ease-linear hover:bg-red-800">
+    <FaDownload color='white' size={20}/>
+    </div>
+  </a>
+
+
   <div onClick={ToggleResumeState}
  className='closeBtn ml-auto'>
    <IoCloseSharp size={30}/>
    </div>
+     </div>
+
+
   <img src={resumeImg} alt="" />
+
+
+
+
   </div>
 
 </div>

@@ -39,10 +39,12 @@ function Projects() {
 <h1 className='mainH subHdng text-2xl mt-20 mb-4 shadow-md px-4 py-2 rounded-lg'>Web Development Projects</h1><div className="projectMain flex flex-col md:flex-row md:justify-between">
  
   <ProjectCard img={reactImg} prTitle={"Project Name:"} prName={"To-Do-List"}videoUrl={"https://satyam1122233.github.io/To-Do-List/"}  codeUrl={"https://github.com/satyam1122233/To-Do-List.git"}codeBtn={"Source Code"} videoBtn={"Visit Website"}/>
-  <ProjectCard img={htmlImg} prTitle={"Project Name:"} prName={"Check Palindrome"} videoUrl={""} codeUrl={"https://github.com/satyam1122233/check_palindrome_Website.git"}codeBtn={"Source Code"} videoBtn={"View Video"} />
 
 
-  <ProjectCard img={phpImg} prTitle={"Project Name:"} prName={"chatBot-Website"} videoUrl={""} codeUrl={"https://github.com/satyam1122233/chatBot-Website.git"}codeBtn={"Source Code"} videoBtn={"View Video"}/>
+  <ProjectCard img={reactImg} prTitle={"Project Name:"} prName={"Artstation Portfolio"} videoUrl={"https://satyam1122233.github.io/artstationPortfolio/"} codeUrl={"https://github.com/satyam1122233/artstationPortfolio.git"}codeBtn={"Source Code"} videoBtn={"Visit Website"} />
+
+
+  <ProjectCard img={phpImg} prTitle={"Project Name:"} prName={"ChatBot-Website"} videoUrl={"https://satyam1122233.github.io/chatBot-Website/"} codeUrl={"https://github.com/satyam1122233/chatBot-Website.git"}codeBtn={"Source Code"} videoBtn={"Visit Website"}/>
 
  
 </div>

@@ -91,7 +91,7 @@ useEffect(()=>{
 
     <ReactTyped
     className='typeTxt text-red-600'
-          strings={["Web Developer","Java Developer","Android Developer"]}
+          strings={["Web Developer","Java Developer"]}
           typeSpeed={40}
           backSpeed={50}
           loop={true}
@@ -115,10 +115,10 @@ useEffect(()=>{
         <div className="socialMediaIcon flex gap-2 ">
           
         <a href="https://www.youtube.com/@TechLearnerrr" target="_blank" rel="noopener noreferrer">
-        <FaYoutube size={32} />
+        <FaYoutube size={32} color='#FF0000'/>
       </a>
         <a href="https://www.linkedin.com/in/satyamkumar11222/" target="_blank" rel="noopener noreferrer">
-<FaLinkedin size={32}/>
+<FaLinkedin size={32} color='#0077B5'/>
       </a>
       
         <a href="https://github.com/satyam1122233" target="_blank" rel="noopener noreferrer">
@@ -133,21 +133,22 @@ useEffect(()=>{
          
 </div>
 
-<button onClick={ToggleResumeState} className='text-md  md:text-xl  color: white;
-py-[7px] px-[20px] rounded-2xl
-bg-[#962503]
- shadow-[0px_3px_0_1px]
-shadow-white
-transition-all duration-[0.15s] ease-linear w-fit hover:shadow-[0px_1.5px_1px_1px] hover:bg-[#6d1c03]' >Resume</button>
+
 
 </div>
       </div>
 
       </div>
 
-      <div className='md:w-1/2 order-1 md:order-2'>
+      <div className='md:w-1/2 order-1 md:order-2 flex flex-col md:space-y-0 space-y-4'>
       <img src={pic} alt="" className='rounded-[50%] mt-4 w-[15rem] h-[15rem]
       md:w-[60%] md:h-[80%] m-auto' style={{boxShadow:"0px 2px 4px 1px white"}}/>
+      <button onClick={ToggleResumeState} className='text-md m-auto  md:text-xl  color: white;
+py-[7px] px-[20px] rounded-2xl
+bg-[#962503]
+ shadow-[0px_3px_0_1px]
+shadow-white
+transition-all duration-[0.15s] ease-linear w-fit hover:shadow-[0px_1.5px_1px_1px] hover:bg-[#6d1c03]' >Resume</button>
       </div>
       </div>
     </div>
